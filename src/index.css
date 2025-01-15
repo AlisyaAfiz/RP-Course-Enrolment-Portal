@@ -220,9 +220,16 @@ footer.container {
   nav {
     display: flex;
     align-items: center;
+    display: flex;
+    gap: 20px;
   } 
   header.container {
     margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 25px;
   }
   nav {
     margin-left: auto;
@@ -239,5 +246,31 @@ footer.container {
   }
   form {
     width: 60%;
+    margin: 0 auto;
   }
+}
+
+.search-bar {
+  display: flex;
+  border: 1px solid #ccc; 
+  border-radius: 10px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: none; 
+  flex: 1; 
+  font-size: 15px; 
+  text-align: center;
+}
+
+.search-bar button {
+  padding: 0 15px;
+  border: none;
+  background-color: #23b133;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
