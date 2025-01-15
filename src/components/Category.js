@@ -7,7 +7,7 @@ export default function Category() {
 
   return (
     <>
-      <h2>{category.name} Sessions</h2>
+      <h2>{category.name} Diploma</h2>
 
       <ul className="session-list">
         {category?.sessions.map(session => (
@@ -16,9 +16,6 @@ export default function Category() {
             className={({ isActive }) => (isActive ? "session-active" : null)}
             to={session.id} >
             <p className="session-name">{session.name}</p>
-            <p>
-              {session.speaker.name} | {session.speaker.org}
-            </p>
             </NavLink>
           </li>
         ))}

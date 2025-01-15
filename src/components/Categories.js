@@ -5,7 +5,7 @@ export default function Categories() {
   const categories = getCategories();
   return (
     <div className="container">
-      <h1>Session Categories</h1>
+      <h1>Schools</h1>
 
       <ul className="categories">
         {categories.map(cat => (

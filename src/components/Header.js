@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/red30-tech-logo.png";
+import logo from "../assets/rp-logo.png";
 
 export default function Header() {
   const getClass = ({ isActive }) => (isActive ? "nav-active" : null);
@@ -10,8 +10,8 @@ export default function Header() {
         <img
           className="logo"
           src={logo}
-          alt="Red30 Tech logo"
-          title="Red30 Tech | Home"
+          alt="Republic Polytechnic logo"
+          title="Republic Polytechnic | Home"
         />
       </Link>
 
@@ -19,11 +19,8 @@ export default function Header() {
         <NavLink to="/" className={getClass}>
           Home
         </NavLink>
-        <NavLink to="/about" className={getClass}>
-          About
-        </NavLink>
         <NavLink to="/categories" className={getClass}>
-          Categories
+          Diplomas
         </NavLink>
         <NavLink to="/register" className={getClass}>
           Register
