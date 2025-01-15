@@ -17,7 +17,7 @@ export default function Register() {
     <div className="container">
       <h1>Register for interest</h1>
       <p>
-        Please register the course you are interested!
+        Please register for the course you are interested in.
       </p>
       <form onSubmit={handleSubmit}>
       <label>

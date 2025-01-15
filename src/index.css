@@ -18,7 +18,7 @@ h1 {
 
 h2 {
   font-size: 1.85rem;
-  color: #858585;
+  color: #5e5e5e;
 }
 
 h3 {
@@ -67,7 +67,7 @@ a:hover {
 nav a {
   display: block;
   font-size: 1.25rem;
-  color: #DD1F26;
+  color: #499b48;
   padding-bottom: 0.15em;
   border-bottom: 2px solid transparent;
   font-weight: 500;
@@ -76,25 +76,25 @@ nav a {
 
 nav a:hover, 
 .nav-active {
-  color: #5dabaa;
+  color: #1111e0;
 }
 
 .categories a {
   font-weight: 500;
-  color: #605e5e;
+  color: #4b4b4b;
   text-decoration: none;
   padding: 0.25em 0.4em;
 }
 .categories a:hover, 
 a.category-active {
   color: #fff;
-  background-color: #605e5e;
+  background-color: #4b4b4b;
   border-radius: 3px;
 }
 
 .session a {
   display: block;
-  color: rgb(56, 56, 56);
+  color: #4b4b4b;
   text-decoration: none;
   border: 1px solid currentColor;
   padding: 0.85em 1.125em;
@@ -103,7 +103,7 @@ a.category-active {
 
 .session a:hover, 
 a.session-active {
-  color: #489b9a;
+  color: #499b48;
 }
 
 /* components & assets */
@@ -161,7 +161,7 @@ input {
 }
 
 input:focus {
-  outline-color: #5dabaa;
+  outline-color: #5dab6b;
 }
 
 input[type="submit"] {
@@ -169,11 +169,11 @@ input[type="submit"] {
   color: #fff;
   font-weight: bold;
   padding: 0.65em 0;
-  background-color: #75bebd;
+  background-color: #5dab6b;
   border: none;
 }
 input[type="submit"]:hover {
-  background-color: #5dabaa;
+  background-color: #5dab6b;
 }
 
 /* layout */
